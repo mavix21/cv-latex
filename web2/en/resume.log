@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/Homebrew) (preloaded format=xelatex 2025.3.15)  19 DEC 2025 16:01
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/Homebrew) (preloaded format=xelatex 2025.3.15)  19 DEC 2025 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,11 @@ entering extended mode
 (./resume.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
-(./awesome-cv.cls
+(../../awesome-cv.cls
+
+LaTeX Warning: You have requested document class `../../awesome-cv',
+               but the document class provides `awesome-cv'.
+
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/articl
@@ -949,7 +953,8 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 )))
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 87.
- (./resume.aux)
+
+No file resume.aux.
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
@@ -972,7 +977,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1102,7 +1106,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 15.
 
-Overfull \hbox (69.4979pt too wide) in alignment at lines 10--43
+Overfull \hbox (69.4979pt too wide) in alignment at lines 10--38
 [] [] 
  []
 
@@ -1125,7 +1129,7 @@ able
 t line 26.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 26.
-) (./resume/certificates.tex
+) (./resume/projects.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 27.
 ) (./resume/education.tex)
@@ -1139,9 +1143,9 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33567 strings out of 473832
- 692643 string characters out of 5719382
- 1256115 words of memory out of 5000000
+ 33566 strings out of 473832
+ 692634 string characters out of 5719382
+ 1255125 words of memory out of 5000000
  56048 multiletter control sequences out of 15000+600000
  561705 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
