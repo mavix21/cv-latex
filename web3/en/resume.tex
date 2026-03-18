@@ -80,7 +80,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra information}
 
-\quote{``Full-Stack Engineer building on the bleeding edge of Web3 and specializing in decentralized applications. Leverages a strong 3-year background in enterprise architecture (.NET/Angular) to build secure, scalable, and production-grade systems}
+\newcommand*{\profilesummary}{Systems Engineer focused on building scalable software and modern web applications. I bring Full-Stack experience with TypeScript, React, Angular, Next.js, and Node.js, along with API and backend service design using C\#/.NET and SQL Server. I also have hands-on knowledge of Web3 architectures and smart contract development in Solidity, plus DevOps practices for deployment automation with Docker, Azure, and CI/CD pipelines. I am driven to deliver robust, secure, and maintainable solutions that create real value in digital products.}
 
 
 %-------------------------------------------------------------------------------
@@ -90,7 +90,9 @@
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[C]
 
-\vspace{-6mm}
+\vspace{0mm}
+{\descriptionstyle{\profilesummary}\par}
+\vspace{2mm}
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
@@ -104,12 +106,13 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/summary.tex}
 \input{resume/experience.tex}
 \vspace{4mm}
 \input{resume/certificates.tex}
 \vspace{4mm}
 \input{resume/education.tex}
+\vspace{4mm}
+\input{resume/summary.tex}
 % \input{resume/presentation.tex}
 % \input{resume/writing.tex}
 % \input{resume/committees.tex}

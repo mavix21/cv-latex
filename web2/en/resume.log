@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/Homebrew) (preloaded format=xelatex 2025.11.7)  18 FEB 2026 20:57
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/Homebrew) (preloaded format=xelatex 2025.11.7)  17 MAR 2026 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1080,10 +1080,6 @@ LaTeX Font Info:    Font shape `TU/Roboto(1)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 91.
 LaTeX Font Info:    Font shape `TU/Roboto(1)/m/n' will be
 (Font)              scaled to size 6.8pt on input line 91.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 91.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 91.
 
 Overfull \hbox (1.46pt too wide) in paragraph at lines 91--92
 []$[]$ $[]$$[]$
@@ -1094,23 +1090,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-(./resume/summary.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 15.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 15.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 15.
-
-Overfull \hbox (69.4979pt too wide) in alignment at lines 10--38
-[] [] 
- []
-
-) (./resume/experience.tex
+(Font)              scaled to size 9.0pt on input line 94.
+(./resume/experience.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 4.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 16.0pt on input line 4.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 26.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 26.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
@@ -1133,22 +1123,30 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 27.
 ) (./resume/education.tex)
+(./resume/summary.tex
+Overfull \hbox (69.4979pt too wide) in alignment at lines 10--38
+[] [] 
+ []
+
+
 
 [1
 
-] (./resume.aux)
+])
+
+[2] (./resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33569 strings out of 473832
- 692679 string characters out of 5719382
- 1256107 words of memory out of 5000000
- 56049 multiletter control sequences out of 15000+600000
- 561705 words of font info for 134 fonts, out of 8000000 for 9000
+ 33566 strings out of 473832
+ 692492 string characters out of 5719382
+ 1257415 words of memory out of 5000000
+ 56048 multiletter control sequences out of 15000+600000
+ 561689 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,135p,564b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,135p,596b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.pdf (1 page).
+Output written on resume.pdf (2 pages).
