@@ -1,0 +1,1 @@
+Keep your answers ultra concise. Sacrifice grammar for the sake of conciseness.
